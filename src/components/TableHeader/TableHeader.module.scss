@@ -1,0 +1,33 @@
+.column {
+  background-color: #d8d7d7;
+  border: 2px solid #ffffff;
+}
+
+.title {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.sortIcon {
+  position: absolute;
+  width: 13px;
+  right: 0;
+}
+
+.sortable {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.small {
+  width: 100px;
+}
+
+.medium {
+  width: 150px;
+}
